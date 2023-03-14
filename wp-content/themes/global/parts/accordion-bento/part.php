@@ -64,7 +64,10 @@ $contentStyles  = output_styles(array(
                             <div class="accordion card-rounded" <?php echo $contentStyles; ?>>
                                 <?php foreach ($args['accordions'] as $index => $accordion) : ?>
                                     <div class="accordion-item <?php echo $index == 0 ? 'active' : null; ?>" style="<?php echo $index + 1 !== count($args['accordions']) ? 'border-bottom: 3px solid '.$args['background-color'].';' : null; ?>">
-                                        <div class="accordion-header ph-1 pv-1 title"><?php echo $accordion['title']; ?></div>
+                                        <div class="accordion-header ph-1 pv-1 title pr-4">
+                                            <?php echo $accordion['title']; ?>
+                                            <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/accord-arrow.png'; ?>" alt="">
+                                        </div>
                                         <div class="accordion-content pr-2">
                                             <div class="ph-1 pv-1">
                                                 
