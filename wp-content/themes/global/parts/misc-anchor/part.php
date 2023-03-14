@@ -1,0 +1,1 @@
+<div class="anchor-point" id="<?php echo sanitize_title($args['anchor-name']); ?>"></div>

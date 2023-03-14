@@ -1,0 +1,7 @@
+.gbc-banner {
+  min-height: 450px;
+  position: relative;
+}
+.gbc-banner.full-screen {
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

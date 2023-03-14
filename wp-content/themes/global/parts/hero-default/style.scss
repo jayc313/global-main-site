@@ -1,0 +1,9 @@
+// Global Banner
+.gbc-banner {
+    min-height: 450px;
+    position: relative;
+    &.full-screen {
+        height: 100vh;
+    }
+
+}

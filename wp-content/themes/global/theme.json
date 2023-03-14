@@ -1,0 +1,49 @@
+{
+	"version": 2,
+	"settings": {
+		"layout": {
+			"contentSize": "95%",
+			"wideSize": "100%"
+		},
+
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
+		},
+
+		"blocks": {
+
+			"core/group": {
+				"spacing": {
+					"padding": false
+				}
+			},
+			"core/heading": {
+				"spacing": {
+					"padding": {
+						"top": "16px",
+						"right": "0px",
+						"bottom": "10px",
+						"left": "0px"
+					},
+					"margin": {
+						"top": "16px",
+						"right": "0px",
+						"bottom": "10px",
+						"left": "0px"
+					}
+				}
+			},
+
+			"core/button": {
+				"border": {
+					"radius": "0"
+				}
+			}
+		}
+
+
+	}
+}
